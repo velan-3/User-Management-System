@@ -1,0 +1,26 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "crud application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "api": "^6.0.0",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-partials": "^0.3.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.2.2",
+    "morgan": "^1.10.0",
+    "unirest": "^0.6.0"
+  }
+}
